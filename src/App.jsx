@@ -13,11 +13,14 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        {/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
+        </a> */}
+        <a>
+          <img src="https://img.itch.zone/aW1nLzI1MDYwNTAucG5n/original/%2F0Afl1.png" alt="doggos" />
         </a>
         {
           puppies.map((puppy) => {
